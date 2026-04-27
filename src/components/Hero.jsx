@@ -5,7 +5,7 @@ import heroImage from '../assets/map.jpg';
 
 function Hero() {
     return (
-    <section className="relative min-h-[95vh] flex items-center justify-center overflow-hidden">
+    <section id='home' className="relative min-h-[95vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Community marching" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1142BB]/95 via-[#1142BB]/80 to-transparent"></div>
@@ -44,10 +44,10 @@ function Hero() {
             transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <button className="bg-[#F9721F] hover:bg-[#F9721F]/90 border inline-flex justify-center align-center items-center text-white text-lg h-14 px-8 rounded-full shadow-xl shadow-[#F9721F]/30 min-h-10">
+            <button className="bg-[#F9721F] hover:bg-[#F9721F]/90 font-medium border inline-flex justify-center align-center items-center text-white text-lg h-14 px-8 rounded-full shadow-xl shadow-[#F9721F]/30 min-h-10">
               Join the Movement <ArrowRight className="ml-2 h-5 w-5" />
             </button>
-            <button size="lg" variant="outline" className="bg-white/10 border text-white border-white/30 hover:bg-white hover:text-[#1142BB] text-lg h-14 px-8 rounded-full backdrop-blur-sm">
+            <button className="bg-white/10 border text-white font-semibold border-white/30 hover:bg-white hover:text-[#1142BB] text-lg h-14 px-8 rounded-full backdrop-blur-sm">
               Read Our Plan
             </button>
           </motion.div>

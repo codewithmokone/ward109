@@ -6,6 +6,8 @@ import Issues from '../components/Issues'
 import Endorsements from '../components/Endorsements'
 import Events from '../components/Events'
 import CTA from '../components/CTA'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
         <Endorsements />
         <Events />
         <CTA  />
+        <Contact />
+        <Footer />
     </main>
   )
 }

@@ -27,10 +27,10 @@ function Nav() {
           <a href="#contact" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Contact</a>
         </div>
         <div className="flex items-center gap-4">
-          <button variant={scrolled ? "outline" : "secondary"} className={!scrolled ? "bg-white text-[#1142BB] hover:bg-white/90 hidden sm:flex" : "hidden sm:flex"}>
+          <button variant={scrolled ? "border [border-color:var(--button-outline)] shadow-xs active:shadow-none" : "border bg-secondary text-secondary-foreground border border-secondary-border"} className={!scrolled ? "min-h-9 px-4 py-2 bg-white font-medium text-[#1142BB] hover:bg-white/90 hidden sm:flex rounded" : "hidden sm:flex"}>
             Volunteer
           </button>
-          <button className="bg-secondary hover:bg-secondary/90 text-white">
+          <button className="min-h-9 px-4 py-2 rounded bg-[#F9721F] hover:bg-secondary/90 text-white font-medium">
             Donate
           </button>
         </div>

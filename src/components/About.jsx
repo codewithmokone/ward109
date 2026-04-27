@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {ChevronRight} from 'lucide-react';
+
 function About() {
   return (
     <section id="about" className="py-24 bg-slate-50 relative overflow-hidden">

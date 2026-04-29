@@ -14,7 +14,7 @@ function Footer() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="flex justify-between px-4 pb-10">
           <div className="col-span-2">
             <Link href="/" className="inline-block mb-6">
               <span className="font-display font-bold text-3xl text-white tracking-tighter">WARD 109</span>
@@ -26,16 +26,17 @@ function Footer() {
               Paid for by Friends of Elena Rodriguez
             </div> */}
           </div>
-          <div>
+          <div className='pr-10'>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">Quick Links</h4>
             <ul className="space-y-4">
-              <li><a href="#about" className="hover:text-white transition-colors">Meet Elena</a></li>
+              <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
+              <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
               <li><a href="#platform" className="hover:text-white transition-colors">Our Platform</a></li>
-              <li><a href="#endorsements" className="hover:text-white transition-colors">Endorsements</a></li>
-              <li><a href="#events" className="hover:text-white transition-colors">Events</a></li>
+              <li><a href="#community" className="hover:text-white transition-colors">Community</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">Take Action</h4>
             <ul className="space-y-4">
               <li><a href="#" className="hover:text-secondary transition-colors text-white">Donate</a></li>
@@ -43,7 +44,7 @@ function Footer() {
               <li><a href="#" className="hover:text-white transition-colors">Host an Imbizo</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Request a Yard Sign</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">

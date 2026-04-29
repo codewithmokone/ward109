@@ -2,7 +2,7 @@ import React from 'react';
 import { Wallet, Users, CheckCircle, DoorOpen, HeartHandshake, Info, Eye, RefreshCcw } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-function Issues() {
+function Platform() {
     const issues = [
         {
             title: "Consultation",
@@ -47,7 +47,7 @@ function Issues() {
     ];
 
     return (
-        <section id="issues" className="py-32 bg-white relative overflow-hidden">
+        <section id="platform" className="py-32 bg-white relative overflow-hidden">
             <div className="container mx-auto px-6 max-w-6xl relative z-10">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <div className="inline-flex items-center gap-2 text-[#F9721F] font-bold tracking-wide uppercase text-sm mb-4 justify-center">
@@ -80,4 +80,4 @@ function Issues() {
     );
 }
 
-export default Issues
+export default Platform

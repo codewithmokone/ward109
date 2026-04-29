@@ -21,9 +21,9 @@ function Nav() {
         <div className="hidden md:flex items-center gap-8">
           <a href="#home" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Home</a>
           <a href="#about" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>About</a>
-          <a href="#issues" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>The Issues</a>
-          <a href="#endorsements" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Community</a>
-          <a href="#events" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Events</a>
+          <a href="#platform" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Our Platform</a>
+          <a href="#community" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Community</a>
+          {/* <a href="#events" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Events</a> */}
           <a href="#contact" className={`text-sm font-medium ${scrolled ? "text-slate-600 hover:text-[#1142BB]" : "text-white/80 hover:text-white"} transition-colors`}>Contact</a>
         </div>
         <div className="flex items-center gap-4">

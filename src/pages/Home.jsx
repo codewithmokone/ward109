@@ -2,8 +2,8 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Issues from '../components/Issues'
-import Endorsements from '../components/Endorsements'
+import Platform from '../components/Platform'
+import Community from '../components/Community'
 import Events from '../components/Events'
 import CTA from '../components/CTA'
 import Contact from '../components/Contact'
@@ -15,8 +15,8 @@ function Home() {
         <Nav />
         <Hero />
         <About />
-        <Issues />
-        <Endorsements />
+        <Platform />
+        <Community />
         {/* <Events /> */}
         <CTA  />
         <Contact />

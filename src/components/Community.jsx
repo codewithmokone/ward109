@@ -2,7 +2,7 @@ import React from 'react';
 import {Quote} from 'lucide-react';
 import { motion } from 'framer-motion';
 
-function Endorsements() {
+function Community() {
     const endorsements = [
         {
             quote: "For years, our streetlights were broken and no one answered the phone at the municipal office. Elena organized us, demanded answers, and got them fixed. She understands service delivery.",
@@ -22,7 +22,7 @@ function Endorsements() {
     ];
 
     return (
-        <section id="endorsements" className="py-24 bg-[#1142BB] text-white overflow-hidden relative">
+        <section id="community" className="py-24 bg-[#1142BB] text-white overflow-hidden relative">
             <div className="absolute top-0 right-0 w-150 h-150 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
             <div className="absolute bottom-0 left-0 w-100 h-100 bg-[#F9721F]/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
 
@@ -56,4 +56,4 @@ function Endorsements() {
     );
 }
 
-export default Endorsements
+export default Community

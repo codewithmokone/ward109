@@ -17,7 +17,7 @@ function Home() {
         <About />
         <Issues />
         <Endorsements />
-        <Events />
+        {/* <Events /> */}
         <CTA  />
         <Contact />
         <Footer />

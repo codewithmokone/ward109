@@ -47,11 +47,11 @@ function Issues() {
     ];
 
     return (
-        <section id="platform" className="py-32 bg-white relative overflow-hidden">
+        <section id="issues" className="py-32 bg-white relative overflow-hidden">
             <div className="container mx-auto px-6 max-w-6xl relative z-10">
                 <div className="text-center max-w-3xl mx-auto mb-20">
-                    <div className="inline-flex items-center gap-2 text-secondary font-bold tracking-wide uppercase text-sm mb-4 justify-center">
-                        <span className="w-8 h-[2px] bg-secondary"></span> The Batho Pele Principles <span className="w-8 h-[2px] bg-secondary"></span>
+                    <div className="inline-flex items-center gap-2 text-[#F9721F] font-bold tracking-wide uppercase text-sm mb-4 justify-center">
+                        <span className="w-8 h-0.5 bg-[#F9721F]"></span> The Batho Pele Principles <span className="w-8 h-0.5 bg-[#F9721F]"></span>
                     </div>
                     <h2 className="font-display text-4xl md:text-6xl font-bold text-slate-900 mb-6 tracking-tight">Our Platform</h2>
                     <p className="text-xl text-slate-600">Bringing the "People First" framework back to local government. This is our commitment to you.</p>
@@ -67,11 +67,11 @@ function Issues() {
                             transition={{ duration: 0.5, delay: idx * 0.05 }}
                             className="bg-slate-50 border border-slate-100 p-8 rounded-3xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full"
                         >
-                            <div className="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300 shrink-0">
+                            <div className="w-14 h-14 bg-[#1142BB]/10 text-[#1142BB] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#1142BB] group-hover:text-white transition-colors duration-300 shrink-0">
                                 {issue.icon}
                             </div>
                             <h3 className="font-display text-2xl font-bold text-slate-900 mb-3">{issue.title}</h3>
-                            <p className="text-slate-600 text-base leading-relaxed flex-grow">{issue.desc}</p>
+                            <p className="text-slate-600 text-base leading-relaxed grow">{issue.desc}</p>
                         </motion.div>
                     ))}
                 </div>
